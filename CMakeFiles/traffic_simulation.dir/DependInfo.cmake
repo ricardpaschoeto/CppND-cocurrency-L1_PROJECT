@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/paschoeto/workspace/concurrency/lesson01/L1_Project/src/Graphics.cpp" "/home/paschoeto/workspace/concurrency/lesson01/L1_Project/CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o"
-  "/home/paschoeto/workspace/concurrency/lesson01/L1_Project/src/Intersection.cpp" "/home/paschoeto/workspace/concurrency/lesson01/L1_Project/CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o"
-  "/home/paschoeto/workspace/concurrency/lesson01/L1_Project/src/Street.cpp" "/home/paschoeto/workspace/concurrency/lesson01/L1_Project/CMakeFiles/traffic_simulation.dir/src/Street.cpp.o"
-  "/home/paschoeto/workspace/concurrency/lesson01/L1_Project/src/TrafficObject.cpp" "/home/paschoeto/workspace/concurrency/lesson01/L1_Project/CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o"
-  "/home/paschoeto/workspace/concurrency/lesson01/L1_Project/src/TrafficSimulator-L1.cpp" "/home/paschoeto/workspace/concurrency/lesson01/L1_Project/CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.o"
-  "/home/paschoeto/workspace/concurrency/lesson01/L1_Project/src/Vehicle_Student.cpp" "/home/paschoeto/workspace/concurrency/lesson01/L1_Project/CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.o"
+  "/home/paschoeto/workspace/concurrency/lesson01/L1_PROJECT/src/Graphics.cpp" "/home/paschoeto/workspace/concurrency/lesson01/L1_PROJECT/CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o"
+  "/home/paschoeto/workspace/concurrency/lesson01/L1_PROJECT/src/Intersection.cpp" "/home/paschoeto/workspace/concurrency/lesson01/L1_PROJECT/CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o"
+  "/home/paschoeto/workspace/concurrency/lesson01/L1_PROJECT/src/Street.cpp" "/home/paschoeto/workspace/concurrency/lesson01/L1_PROJECT/CMakeFiles/traffic_simulation.dir/src/Street.cpp.o"
+  "/home/paschoeto/workspace/concurrency/lesson01/L1_PROJECT/src/TrafficObject.cpp" "/home/paschoeto/workspace/concurrency/lesson01/L1_PROJECT/CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o"
+  "/home/paschoeto/workspace/concurrency/lesson01/L1_PROJECT/src/TrafficSimulator-L1.cpp" "/home/paschoeto/workspace/concurrency/lesson01/L1_PROJECT/CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.o"
+  "/home/paschoeto/workspace/concurrency/lesson01/L1_PROJECT/src/Vehicle_Student.cpp" "/home/paschoeto/workspace/concurrency/lesson01/L1_PROJECT/CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
