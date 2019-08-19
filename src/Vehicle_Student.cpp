@@ -32,8 +32,10 @@ void Vehicle::simulate()
 // virtual function which is executed in a thread
 void Vehicle::drive()
 {
+    //std::unique_lock<std::mutex> lck(mtx);
     // print id of the current thread
     std::cout << "Vehicle #" << _id << "::drive: thread id = " << std::this_thread::get_id() << std::endl;
+    //lck.unlock();
 
     // initalize variables
     bool hasEnteredIntersection = false;
@@ -75,6 +77,10 @@ void Vehicle::drive()
             // check wether halting position in front of destination has been reached
             if (completion >= 0.9 && !hasEnteredIntersection)
             {
+                std::future<void> ftr = std::async(&Intersection::addVehicleToQueue, _currDestination, get_shared_this());
+                
+                ftr.get();
+                
                 // slow down and set intersection flag
                 _speed /= 10.0;
                 hasEnteredIntersection = true;

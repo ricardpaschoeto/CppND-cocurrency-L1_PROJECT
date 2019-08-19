@@ -78,10 +78,15 @@ int main()
   
     // Task L1.3 : Vary the number of simulated vehicles and use the top function on the terminal or 
     // the task manager of your system to observe the number of threads used by the simulation.   
-    int nVehicles = 4;
+    int nVehicles = 5;
     createTrafficObjects(streets, intersections, vehicles, backgroundImg, nVehicles);
 
     /* PART 2 : simulate traffic objects */
+
+    // simulate intersections
+    std::for_each(intersections.begin(), intersections.end(), [](std::shared_ptr<Intersection> &i){
+        i->simulate();
+    });
 
     // simulate vehicles
     std::for_each(vehicles.begin(), vehicles.end(), [](std::shared_ptr<Vehicle> &v) {

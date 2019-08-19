@@ -1,9 +1,11 @@
+#include <algorithm>
 #include <iostream>
 #include <chrono>
 #include "TrafficObject.h"
 
 // init static variable
 int TrafficObject::_idCnt = 0;
+
 
 void TrafficObject::setPosition(double x, double y)
 {
@@ -26,7 +28,7 @@ TrafficObject::TrafficObject()
 TrafficObject::~TrafficObject()
 {
     // Task L1.1 : Set up a thread barrier that ensures that all the thread objects in the member vector _threads are joined.
-    for(std::thread& t : threads){
+    std::for_each(threads.begin(), threads.end(), [](std::thread &t){
         t.join();
-    }
+    });
 }
