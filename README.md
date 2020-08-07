@@ -1,4 +1,4 @@
-# CppND-concurrency-L1-2_PROJECT
+# CppND-concurrency- Course Project L1
 
 * Ubuntu 16.04
 * VSCode
